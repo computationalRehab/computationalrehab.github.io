@@ -271,6 +271,8 @@ Full-Width Styles
   margin: 0 auto;
 }
 
+
+
 #forkme_banner {
   display: block;
   position: absolute;
@@ -370,6 +372,11 @@ Full-Width Styles
   background: #212121;
 }
 
+#footer-text {
+  font-size: 0.8em;
+  color: #888;
+}
+
 
 
 /*******************************************************************************
@@ -386,6 +393,8 @@ Small Device Styles
   }
 
   .inner {
+    font-family: "Courier";
+    color: #666;
     min-width: 320px;
     max-width: 480px;
   }
